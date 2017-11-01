@@ -1,3 +1,5 @@
+'''Happy Numbers'''
+
 def sum_of_squares(number):
     string = str(number)
     digits = [int(char)**2 for char in string]
